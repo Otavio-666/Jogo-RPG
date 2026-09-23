@@ -1,2 +1,2 @@
-# Banco-
+# Banco
 Trabalho do Daniel
