@@ -1,15 +1,10 @@
 <?php
 
-require_once 'modelo/Cadatro/Cadastro.php';
-require_once 'modelo/Gerenciador/Arena.php';
+if (PHP_SAPI !== 'cli') {
+    exit("Este jogo usa o terminal. Execute: php execucao.php\n");
+}
 
-// Inicialização da Aplicação
-// 1. Cria a instância de Cadastro
-$cadastro = new Cadastro();
+require_once __DIR__ . '/modelo/Historia.php';
 
-// 2. Cadastra os personagens
-$cadastro->cadastrarPersonagens();
-
-// 3. Passa a instância de Cadastro para a Arena
-$arena = new Arena($cadastro);
-$arena->escolherPersonagem();
+$historia = new Historia();
+$historia->iniciar();
