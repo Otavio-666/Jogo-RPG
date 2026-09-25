@@ -1,0 +1,18 @@
+fgets(STDIN) = serve para pausar o programa e ler o que o usuário digitar no terminal.
+
+
+if (PHP_SAPI !== 'cli') {
+    exit("Este jogo usa o terminal. Execute: php execucao.php\n"); }
+
+    = A constante PHP_SAPI identifica onde o PHP está rodando. Se for diferente de 'cli' (tentar abrir o script pelo navegador), a condição é ativada.
+
+
+system(PHP_OS_FAMILY === 'Windows' ? 'cls' : 'clear') = Este comando limpa a tela do terminal tanto no Windows quanto no Linux/macOS.
+
+
+array_values = serve para reorganizar as chaves de um array, resetando os índices para uma sequência numérica começando do zero.
+
+
+array_filter = serve para filtrar os elementos de um array com base em uma condição.
+
+require_once __DIR__ . '.php' = DIR é uma constante que descobre automaticamente a pasta atual onde o script está salvo.

@@ -1,12 +1,12 @@
 <?php
 
-require_once 'modelo/Apoio/Mascote.php';
-require_once 'modelo/Cadatro/Cadastro.php';
-require_once 'modelo/Itens/Arma.php';
-require_once 'modelo/Jogador/Personagem.php';
-require_once 'modelo/Jogador/Guerreiro.php';
-require_once 'modelo/Jogador/Mago.php';
-require_once 'modelo/Gerenciador/Arena.php';
+require_once 'modelo/Mascote.php';
+require_once 'modelo/Cadastro.php';        
+require_once 'modelo/Arma.php';
+require_once 'modelo/Personagem.php';
+require_once 'modelo/Guerreiro.php';
+require_once 'modelo/Mago.php';
+require_once 'modelo/Arena.php';
 
 function pausa(): void {
     echo "\n(Pressione ENTER para continuar...)";
