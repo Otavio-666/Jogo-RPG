@@ -15,4 +15,29 @@ array_values = serve para reorganizar as chaves de um array, resetando os índic
 
 array_filter = serve para filtrar os elementos de um array com base em uma condição.
 
+
 require_once __DIR__ . '.php' = DIR é uma constante que descobre automaticamente a pasta atual onde o script está salvo.
+
+
+trim(fgets(STDIN)) = serve para ler o que o usuário digita no terminal e remover os espaços em branco e a quebra de linha extra.
+
+
+empty = serve para verificar se uma variável está vazia ou não existe.
+
+
+public function __construct() {
+        parent::__construct(); }
+
+        = Método construtor de uma classe filha que chama explicitamente o construtor da classe pai.
+
+
+sleep = serve para pausar a execução do programa por um número determinado de segundos.
+
+
+private ?Variavel $variavelEquipada = null; = O ?Variavel indica um tipo anulável no PHP. Ele define que a propriedade aceita apenas um objeto da classe Variavel ou o valor null.
+
+
+$variavel = $this->escolhaVariavel(Variavel::class); = cria uma variável da classe Variavel e o salva na variável $variavel.
+
+
+
